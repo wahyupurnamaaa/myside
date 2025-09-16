@@ -7,11 +7,11 @@ const Projects = ({ onNavigateToProject }) => {
 
   const projects = [
     {
-      title: 'Presensi QR dengan Android Studio',
+      title: 'QR attendance with Android Studio',
       description: 'A QR Code-based attendance application developed using Android Studio with real-time tracking and attendance validation features.',
       technologies: ['Android Studio', 'Java', 'Xampp', 'QR Code', 'CodeIgniter', 'MySQL', 'PHP', 'HTML', 'CSS', 'JavaScript' ],
       github: 'https://github.com',
-      live: 'https://example.com',
+    //  live: 'https://example.com',
       image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500',
       projectPage: 'qr-presence'
     },
@@ -20,28 +20,20 @@ const Projects = ({ onNavigateToProject }) => {
       description: 'A job search application developed using React Native with real-time tracking features.',
       technologies: ['React Native', 'JavaScript', 'Expo', 'React Navigation'],
       github: 'https://github.com',
-      live: 'https://example.com',
+     // live: 'https://example.com',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500',
       projectPage: 'ecommerce-detail'
     },
     {
-      title: 'Penjualan dan Persediaan obat dengan Java Netbeans',
+      title: 'Sales and Inventory of Medicines with Java Netbeans',
       description: 'A drug sales and inventory application developed using Java Netbeans with real-time tracking features.',
       technologies: ['Java', 'Netbeans', 'MySQL'],
       github: 'https://github.com',
-      live: 'https://example.com',
+      //live: 'https://example.com',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500',
       projectPage: 'task-management-detail'
     },
-    {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics.',
-      technologies: ['JavaScript', 'OpenWeather API', 'Chart.js'],
-      github: 'https://github.com',
-      live: 'https://example.com',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500',
-      projectPage: 'weather-dashboard-detail'
-    }
+
   ];
 
   const nextProject = () => {

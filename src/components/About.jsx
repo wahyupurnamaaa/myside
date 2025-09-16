@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const skills = [
-    'React', 'JavaScript', 'Node.js', 'Python', 'MongoDB', 'Canva', 'PHP', 'MySQL', 
+    'React', 'JavaScript', 'Node.js', 'Python', 'MongoDB', 'Canva', 'PHP', 'MySQL', 'Typescript',
     'React Native', 'REST API', 'Android Studio', 'Git', 'Tailwind CSS'
   ];
 

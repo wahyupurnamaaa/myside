@@ -59,7 +59,7 @@ const QRPresence = ({ onNavigateBack }) => {
               <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-4">
                 YEAR
               </h3>
-              <p className="text-xl font-semibold text-gray-900">2024</p>
+              <p className="text-xl font-semibold text-gray-900">2025</p>
             </div>
           </motion.div>
 
@@ -398,6 +398,7 @@ const QRPresence = ({ onNavigateBack }) => {
             <h2 className="text-4xl font-bold text-gray-900 mb-8">Get In Touch</h2>
             <div className="flex justify-center">
               <motion.button
+                onClick={() => onNavigateBack && onNavigateBack('home')}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gray-900 text-white px-12 py-4 rounded-full flex items-center space-x-3 hover:bg-gray-800 transition-colors text-lg font-semibold"
@@ -417,7 +418,7 @@ const QRPresence = ({ onNavigateBack }) => {
             <ChevronDown className="h-8 w-8 text-gray-400" />
           </div>
           <div className="text-center mt-6">
-            <p className="text-gray-500 text-lg">©2025 - Alvalens</p>
+            <p className="text-gray-500 text-lg">©2025 - wahyupurnamaaa</p>
           </div>
         </div>
       </div>

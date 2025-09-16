@@ -59,7 +59,7 @@ const TaskManagementDetail = ({ onNavigateBack }) => {
               <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-4">
                 YEAR
               </h3>
-              <p className="text-xl font-semibold text-gray-900">2024</p>
+              <p className="text-xl font-semibold text-gray-900">2019</p>
             </div>
           </motion.div>
 
@@ -426,147 +426,6 @@ const TaskManagementDetail = ({ onNavigateBack }) => {
           </div>
         </motion.div>
 
-        {/* Job Finder UI App Description Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.7 }}
-          className="mt-20"
-        >
-          <h4 className="text-2xl font-bold text-gray-900 mb-12 text-center">Job Finder UI App</h4>
-          <div className="bg-white rounded-2xl shadow-lg p-12 max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h5 className="text-xl font-semibold text-gray-900 mb-6">Job Finder Application Description</h5>
-                <div className="space-y-4 text-gray-700 leading-relaxed">
-                  <p>
-                    Job Finder UI App is a mobile application designed to help job seekers 
-                    find job opportunities that match their qualifications and preferences. 
-                    This application is developed using Android Studio with modern Material Design.
-                  </p>
-                  <p>
-                    Key features of the application include job search by location, job category, 
-                    and salary. Users can save favorite job listings, apply for jobs directly, 
-                    and receive notifications for jobs that match their profile.
-                  </p>
-                  <p>
-                    The application also includes a user profile system that allows job seekers 
-                    to upload their CV, add skills, and set search preferences. The analytics 
-                    dashboard provides insights about application status and relevant job opportunities.
-                  </p>
-                </div>
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-gray-100 rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-blue-600 mb-2">500+</div>
-                  <div className="text-sm text-gray-600">Active Jobs</div>
-                </div>
-                <div className="bg-gray-100 rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-green-600 mb-2">10K+</div>
-                  <div className="text-sm text-gray-600">Active Users</div>
-                </div>
-                <div className="bg-gray-100 rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-purple-600 mb-2">95%</div>
-                  <div className="text-sm text-gray-600">Satisfaction Rate</div>
-                </div>
-                <div className="bg-gray-100 rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-orange-600 mb-2">24/7</div>
-                  <div className="text-sm text-gray-600">Customer Support</div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Job Finder Screenshots */}
-            <div className="mt-12">
-              <h6 className="text-lg font-semibold text-gray-800 mb-6 text-center">Screenshots Job Finder UI</h6>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                  <img 
-                    src="/q1.png" 
-                    alt="Job Finder Login Screen" 
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-4">
-                    <h6 className="text-sm font-semibold text-gray-900 mb-1">Login Page</h6>
-                    <p className="text-gray-600 text-xs">
-                      Login with email/username and password to access the application
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                  <img 
-                    src="/q2.png" 
-                    alt="Job Search Dashboard" 
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-4">
-                    <h6 className="text-sm font-semibold text-gray-900 mb-1">Search Dashboard</h6>
-                    <p className="text-gray-600 text-xs">
-                      Main dashboard with job search and filtering features
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                  <img 
-                    src="/q3.png" 
-                    alt="Job Listings" 
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-4">
-                    <h6 className="text-sm font-semibold text-gray-900 mb-1">Job Listings</h6>
-                    <p className="text-gray-600 text-xs">
-                      Job listings with company information, position, and salary
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                  <img 
-                    src="/q4.png" 
-                    alt="Job Details" 
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-4">
-                    <h6 className="text-sm font-semibold text-gray-900 mb-1">Job Details</h6>
-                    <p className="text-gray-600 text-xs">
-                      Job details page with complete description and apply button
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                  <img 
-                    src="/q5.png" 
-                    alt="User Profile" 
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-4">
-                    <h6 className="text-sm font-semibold text-gray-900 mb-1">User Profile</h6>
-                    <p className="text-gray-600 text-xs">
-                      Profile page to manage CV, skills, and search preferences
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                  <img 
-                    src="/q6.png" 
-                    alt="Application Status" 
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-4">
-                    <h6 className="text-sm font-semibold text-gray-900 mb-1">Application Status</h6>
-                    <p className="text-gray-600 text-xs">
-                      Track job application status and receive updates from companies
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </motion.div>
 
         {/* Call to Action Section */}
         <motion.div
@@ -580,6 +439,7 @@ const TaskManagementDetail = ({ onNavigateBack }) => {
             <h2 className="text-4xl font-bold text-gray-900 mb-8">Get In Touch</h2>
             <div className="flex justify-center">
               <motion.button
+                onClick={() => onNavigateBack && onNavigateBack('home')}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gray-900 text-white px-12 py-4 rounded-full flex items-center space-x-3 hover:bg-gray-800 transition-colors text-lg font-semibold"
@@ -599,7 +459,7 @@ const TaskManagementDetail = ({ onNavigateBack }) => {
             <ChevronDown className="h-8 w-8 text-gray-400" />
           </div>
           <div className="text-center mt-6">
-            <p className="text-gray-500 text-lg">©2025 - Alvalens</p>
+            <p className="text-gray-500 text-lg">©2025 - wahyupurnamaaa</p>
           </div>
         </div>
       </div>

@@ -41,6 +41,16 @@ function App() {
   const navigateToPage = (page) => {
     setCurrentPage(page);
     setActiveSection(page);
+    
+    // If navigating to home from a project page, scroll to contact section
+    if (page === 'home') {
+      setTimeout(() => {
+        const contactElement = document.getElementById('contact');
+        if (contactElement) {
+          contactElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
   };
 
   const renderPage = () => {
