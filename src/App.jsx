@@ -42,13 +42,10 @@ function App() {
     setCurrentPage(page);
     setActiveSection(page);
     
-    // If navigating to home from a project page, scroll to contact section
+    // If navigating to home, scroll to top instead of contact
     if (page === 'home') {
       setTimeout(() => {
-        const contactElement = document.getElementById('contact');
-        if (contactElement) {
-          contactElement.scrollIntoView({ behavior: 'smooth' });
-        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       }, 100);
     }
   };
@@ -93,3 +90,4 @@ function App() {
 }
 
 export default App;
+
