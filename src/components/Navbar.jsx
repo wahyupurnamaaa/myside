@@ -12,13 +12,19 @@ const Navbar = ({ activeSection, onNavigate }) => {
   ];
 
   const scrollToSection = (sectionId) => {
-    if (onNavigate) {
+    // First navigate to home page if we're not already there
+    if (onNavigate && sectionId !== 'home') {
       onNavigate('home');
     }
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    
+    // Wait a bit for the page to render, then scroll to section
+    setTimeout(() => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+    
     setIsOpen(false);
   };
 
@@ -100,3 +106,4 @@ const Navbar = ({ activeSection, onNavigate }) => {
 };
 
 export default Navbar;
+
